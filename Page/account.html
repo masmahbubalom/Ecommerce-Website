@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Shop | Account</title>
 
-
+    <!-- css link -->
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/navbar.css">
     <link rel="stylesheet" href="./page css/account.css">
@@ -66,12 +66,15 @@
 
     <div class="account-page">
         <div class="form-container">
+
+            <!-- form button -->
             <div class="form-btn">
                 <span onclick="Login()">Login</span>
                 <span onclick="Reg()">Register</span>
                 <hr id="Indicator">
             </div>
 
+            <!-- Login Form -->
             <form id="LoginForm">
                 <input type="text" placeholder="Username">
                 <input type="password" placeholder="Password">
@@ -79,6 +82,7 @@
                 <a href="#">Forgot password</a>
             </form>
 
+            <!-- Register Form -->
             <form id="RegForm">
                 <input type="text" placeholder="Username">
                 <input type="email" placeholder="Email">
@@ -88,14 +92,6 @@
 
         </div>
     </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -190,7 +186,7 @@
 
 
 
-<!-------------------------------------- JS For Toggle Menu ----------------------------------------------->
+<!-------------------------------------- JS For Toggle Menu and search ----------------------------------------------->
     
     <script>
         var MenuItems = document.getElementById("MenuItems");
