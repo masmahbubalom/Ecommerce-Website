@@ -1,0 +1,37 @@
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 30px 20px 10px;
+    margin-top: 40px;
+}
+
+
+.section-name {
+    font-size: 22px;
+}
+
+.short-by select {
+    padding: 8px;
+}
+
+.page-list {
+    margin: 40px 30px;
+}
+
+.page-list a {
+    padding: 8px 12px;
+    color: #5BBA47;
+    background-color: #ffffff;
+    border: 1px solid #5BBA47;
+    border-radius: 2px;
+    margin: 0px 4px;
+    transition: all 0.5s;
+}
+
+.page-list a:hover {
+    background-color: #5BBA47;
+    color: #fff;
+}
+

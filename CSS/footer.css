@@ -1,0 +1,85 @@
+
+
+footer {
+    background-color: #171d33;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-section div {
+    margin: 10px;
+}
+
+
+.footer-logo {
+    width: 220px;
+    margin: 10px;
+}
+
+.footer-heading {
+    font-size: 18px;
+    color: #5BBA47;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    
+}
+
+.social-link i {
+    font-size: 30px;
+    padding: 8px 0px;
+    color: #fff;
+}
+
+.payment-method i {
+    font-size: 30px;
+    padding: 8px 0px;
+    color: #fff;
+}
+
+.apps-link img {
+    width: 100px;
+}
+
+.info-section > .trend-category, .quick-link, .help-link {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+}
+
+.trend-category a, 
+.quick-link a, 
+.help-link a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 4px 0px;
+    transition: all 0.05s;
+}
+
+.trend-category a:hover, 
+.quick-link a:hover, 
+.help-link a:hover {
+    border-bottom: 2px solid #5BBA47;
+    color: #5BBA47;
+    border-radius: 2px;
+}
+
+
+
+.copyright-section {
+    border-top: 2px solid #fff;
+}
+
+.copyright-section p {
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+}
+

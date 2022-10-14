@@ -1,0 +1,184 @@
+
+/*-------------------Navbar Section-------------------*/
+
+.navbar {
+    background-color: #000113;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 5;
+}
+
+.logo img {
+    width: 120px;
+}
+
+/* ------------Search Bar--------------- */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 0px 70px 0px 20px;
+    width: 30em;
+    height: 42px;
+    border: none;
+    border-radius: 2px;
+}
+
+.search-bar input::placeholder {
+    font-size: 14px;
+}
+
+.search-bar .fa-magnifying-glass {
+    color: #000000;
+    padding: 13px 20px;
+    margin-left: -62px;
+    border-left: 1px solid #808080;
+    z-index: 4;
+}
+
+/* ---------------Link and Checkout Bag---------------- */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    padding: 6px 6px;
+    margin:  0 6px;
+    transition: all 0.2s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #5BBA47;
+    color: #5BBA47;
+    border-radius: 2px;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+
+.search-icon {
+    font-size: 24px;
+    color: #fff;
+    display: none;
+}
+
+.fa-bag-shopping {
+    font-size: 26px;
+    color: #f1f0f0;
+    transition: all 0.2s;
+}
+
+.fa-bars {
+    font-size: 26px;
+    color: #fff;
+    display: none;
+}
+
+
+/*------------------- media query for menu --------------------*/
+
+
+@media only screen and (max-width: 1080px) {
+    
+    nav ul {
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        background-color: #171d33;
+        width: 120px;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+
+    nav ul li a:hover {
+        border-bottom: none;
+    }
+
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+
+
+/*------------------- media query for search bar --------------------*/
+
+
+@media only screen and (max-width: 900px) {
+
+    .search-bar {
+        position: absolute;
+        top: 80px;
+        left: 30%;
+        height: 50px;
+        overflow: hidden;
+        transition: all 0.02s;
+    }
+    .search-bar input {
+        width: 20em;
+        background-color: #5BBA47;
+        padding: 1px 70px 2px 20px;
+        outline: none;
+    }
+
+    .search-bar .fa-magnifying-glass {
+        padding: 13px 20px;
+        border-radius: 2px;
+        margin-left: -62px;
+        z-index: 4;
+    }
+    .search-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    
+    .search-bar {
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    
+    .navbar {
+        padding: 4px 10px;
+    }
+    .search-bar {
+        left: 5%;
+    }
+}
+
+
+
